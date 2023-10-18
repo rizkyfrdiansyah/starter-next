@@ -1,6 +1,7 @@
 import Image from "next/image";
 import logo from "@/assets/logo.png";
 import Link from "next/link";
+import ListMovie from "./sections/ListMovie";
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
           </div>
         </nav>
       </header>
-      <div></div>
+      <main>
+        <ListMovie />
+      </main>
     </>
   );
 }
