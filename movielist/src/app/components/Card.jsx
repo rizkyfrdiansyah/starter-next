@@ -11,6 +11,7 @@ export default function Card({ image, title, series, popularity }) {
           <p>{popularity}</p>
         </div>
       </div>
+      <div>s</div>
     </>
   );
 }
