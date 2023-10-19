@@ -2,6 +2,7 @@ import Image from "next/image";
 import logo from "@/assets/logo.png";
 import Link from "next/link";
 import ListMovie from "./sections/ListMovie";
+import DefaultModal from "./components/ModalSignin";
 
 export default function Home() {
   return (
@@ -13,11 +14,11 @@ export default function Home() {
             <input type="text" placeholder="Searching" />
           </div>
           <div>
-            <Link href="/signin">Sign In</Link>
+            <DefaultModal />
           </div>
         </nav>
       </header>
-      <main>
+      <main className="container mx-auto mt-10 relative">
         <ListMovie />
       </main>
     </>
