@@ -12,7 +12,6 @@ export default function ListMovie() {
           <Card image={item.poster_path} id={item.id} popularity={item.popularity} title={item.title} key={item.id} />
         ))}
       </div>
-      <div>s</div>
     </>
   );
 }
